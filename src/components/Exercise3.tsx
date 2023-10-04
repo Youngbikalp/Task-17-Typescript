@@ -15,7 +15,6 @@ function Exercise3() {
           <li key={index}>{number}</li>
         ))}
       </div>
-      <button onClick={addString}>Try to add a string</button>
     </div>
   );
 }

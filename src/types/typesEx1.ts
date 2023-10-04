@@ -7,7 +7,7 @@ type CompanyData = {
 const company: CompanyData = {
   orgName: "Takeo",
   establishedDate: 2019,
-  isTechCompany: false,
+  isTechCompany: true,
 };
 
 console.log(company);

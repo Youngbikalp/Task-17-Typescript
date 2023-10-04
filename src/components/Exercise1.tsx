@@ -6,7 +6,7 @@ function Exercise1() {
       <h1> Exercise 1: Type Annotations</h1>
       <p>Organization Name: {company.orgName}</p>
       <p>Established Date: {company.establishedDate}</p>
-      <p>Is Tech Company?: {company.isTechCompany}</p>
+      <p>Is this a Tech Company ?: {company.isTechCompany.toString()}</p>
     </div>
   );
 }
